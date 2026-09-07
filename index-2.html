@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital culture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hero">
+    <div class="wrap">
+      <p class="kicker">Digital culture — étude de cas</p>
+      <h1>Le <span class="accent">clic</span> qui mobilise</h1>
+      <p class="lede">To what extent does the exposure of information on social media have an impact on citizen engagement among internet users?</p>
+
+      <div class="timeline" id="timeline">
+        <div class="track">
+          <div class="fill"></div>
+        </div>
+        <div class="stops">
+          <div class="stop"><b>1968</b>Mobilisation étudiante, structure pyramidale</div>
+          <div class="stop"><b>2018</b>Basculement vers un militantisme horizontal</div>
+          <div class="stop"><b>2020</b>George Floyd, viralité et Black Lives Matter</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Contexte</p>
+      <h2>Le point de départ</h2>
+      <p>In May 2020, a woman recorded the violent arrest of a black man in Minneapolis, Minnesota. His name was George Floyd and he will be declared dead the same day shortly after his transfer to the hospital. The video posted on Facebook that same evening, shortly after the incident, exploded onto social media and was broadcast on major platforms such as Twitter and Instagram. The next day, protests were already breaking out in Minneapolis and within days, the Black Lives Matter movement was already spreading worldwide.</p>
+      <p>Our group is working on the role of incidental news exposure to political participation.</p>
+      <p>Our hypothesis is essentially that platform-mediated exposure accelerates how quickly a specific product, trend, or idea moves through a user group, transforming slow, generational adoption into instant, algorithmic saturation.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Étude</p>
+      <h2>Anaïs Theviot</h2>
+      <p>Anaïs Theviot is a French politician that works on digital activism. In her article entitled "Le militantisme, cinquante ans après Mai 68"[1] Anaïs Theviot theorises a renewed form of activism taking place on social media. Her academic paper enlighten several aspect of digital activism.</p>
+      <p>First and foremost she draws a comparison between 1968 youth mobilisation and 2018 late modern period. She points out a new structural organisation of activists where we went from a pyramidal hierarchical structure to a more horizontal functioning. For her, this is illustrated by the increase of associations rather than union or political parties. This conveys the idea of a common legitimacy among all participants, everyone is inclined to express themselves that way.</p>
+
+      <div class="toggle-row" role="group" aria-label="Comparer les structures militantes">
+        <button type="button" class="toggle-btn active" data-target="d1968" aria-pressed="true">1968</button>
+        <button type="button" class="toggle-btn" data-target="d2020" aria-pressed="false">Aujourd'hui</button>
+      </div>
+
+      <div class="diagram-box">
+        <div class="diagram active" id="d1968">
+          <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="30" r="14" fill="var(--banner-red)"/>
+            <line x1="200" y1="44" x2="100" y2="90" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="200" y1="44" x2="200" y2="90" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="200" y1="44" x2="300" y2="90" stroke="var(--ink)" stroke-width="2"/>
+            <circle cx="100" cy="100" r="10" fill="var(--ink)"/>
+            <circle cx="200" cy="100" r="10" fill="var(--ink)"/>
+            <circle cx="300" cy="100" r="10" fill="var(--ink)"/>
+            <line x1="100" y1="110" x2="60" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="100" y1="110" x2="140" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="200" y1="110" x2="180" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="200" y1="110" x2="220" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="300" y1="110" x2="280" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="300" y1="110" x2="340" y2="160" stroke="var(--ink)" stroke-width="1.5"/>
+            <circle cx="60" cy="170" r="7" fill="var(--muted)"/>
+            <circle cx="140" cy="170" r="7" fill="var(--muted)"/>
+            <circle cx="180" cy="170" r="7" fill="var(--muted)"/>
+            <circle cx="220" cy="170" r="7" fill="var(--muted)"/>
+            <circle cx="280" cy="170" r="7" fill="var(--muted)"/>
+            <circle cx="340" cy="170" r="7" fill="var(--muted)"/>
+          </svg>
+        </div>
+        <div class="diagram" id="d2020">
+          <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+            <line x1="80" y1="60" x2="180" y2="40" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="180" y1="40" x2="300" y2="70" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="80" y1="60" x2="130" y2="150" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="130" y1="150" x2="300" y2="70" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="130" y1="150" x2="260" y2="180" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="260" y1="180" x2="300" y2="70" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="80" y1="60" x2="60" y2="150" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="60" y1="150" x2="130" y2="150" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="300" y1="70" x2="340" y2="150" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="340" y1="150" x2="260" y2="180" stroke="var(--ink)" stroke-width="1.5"/>
+            <circle cx="80" cy="60" r="9" fill="var(--digital-teal)"/>
+            <circle cx="180" cy="40" r="9" fill="var(--digital-teal)"/>
+            <circle cx="300" cy="70" r="9" fill="var(--digital-teal)"/>
+            <circle cx="60" cy="150" r="9" fill="var(--digital-teal)"/>
+            <circle cx="130" cy="150" r="9" fill="var(--digital-teal)"/>
+            <circle cx="260" cy="180" r="9" fill="var(--digital-teal)"/>
+            <circle cx="340" cy="150" r="9" fill="var(--digital-teal)"/>
+          </svg>
+        </div>
+        <p class="diagram-caption" id="diagramCaption">Une tête, une chaîne de commandement : l'adhésion passe par l'organisation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Mutation</p>
+      <h2>Un militantisme "post-it"</h2>
+      <p>Next, she underlines a "post-it" militantism. According to her, we went from a collective form of activism to a more individualist engagement form. The idea is that everyone is able to express their thoughts and support behind their screen and this creates more space for a more personal engagement. However now, participants are way less likely to commit for a longer period. Anaïs insists, members are constantly looking for a lighter and more personalised form of engagement. This distance is the result of the possibilities offered by digital technology, where to show support you do not have to be present at meetings; when tweeting and reposting work twice as fast. These are specific actions that do not need a formal adhesion. It is faster to engage in digital social movements.</p>
+
+      <div class="postit-wall">
+        <div class="postit"><strong>Repost</strong>Partager sans commenter</div>
+        <div class="postit"><strong>Story</strong>Un soutien qui dure 24h</div>
+        <div class="postit"><strong>Pétition</strong>Signer en un clic</div>
+        <div class="postit"><strong>Commentaire</strong>Prendre position vite</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Nuance</p>
+      <h2>Terrain vs écran</h2>
+      <p>Nonetheless, Anaïs specifies that digital activism is not replacing traditional activism. We tend to think that with these new technologies and tools given by social media, would make real life action disappear, but it is not the case. In fact, according to her, digital activism only accentuates the reach of the real life movement. Activists actually dispose of new tools to share their actions without having to be dependent on traditional media. Social media and the use of the web promotes fieldwork and public validation gives legitimacy to the movement.</p>
+
+      <blockquote class="pullquote">
+        Digital activism is not a substitute for fieldwork.
+        <cite>Anaïs Theviot</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Regard critique</p>
+      <h2>Opinion</h2>
+      <div class="margin-note">
+        <p class="eyebrow">Ce que l'article laisse de côté</p>
+        <p>In my opinion, this article covers very well the several aspects of mobilisation on social media such as: the ability for everyone to participate and the small but specific actions that could help propulse a social movement. However, I think it lacks to mention the important part that fake news and propaganda play in this renewed form of activism. Yes, the engagement of users is beneficial for mobilisation but some users provide more harm than good to the cause, especially on social media. Huge platforms such as Facebook, Instagram and Twitter often hold so much misinformations on specific subjects. This completely disregards the real purpose of the movement and in some cases can lead to a weakening of mobilisation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Conclusion</p>
+      <p>Finally, about the incidental news exposure and the reach it could give to mobilization, this article does confront the reality of the digital action with the actions that takes place in real life time. It allows us to recognise that the digital world and real life, even though they are two separate dimensions, they do complete each other well. Specifically in a context where traditional media is less and less trustworthy.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>[1] « Le militantisme, cinquante ans après Mai 68 | Cairn.info ».</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
